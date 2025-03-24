@@ -1,8 +1,8 @@
 {
-  "name": "test_final_JS_Back",
+  "name": "test final JS Back",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
