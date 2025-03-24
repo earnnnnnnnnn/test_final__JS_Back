@@ -69,8 +69,8 @@ const Orders = sequelize.define('Orders', {
     }
 });
 
-Orders.belongsTo(Users, { foreignKey: 'user_id' });
-Users.hasMany(Orders, { foreignKey: 'user_id' });
+// Orders.belongsTo(Users, { foreignKey: 'user_id' });
+// Users.hasMany(Orders, { foreignKey: 'user_id' });
 
 
 sequelize.sync();
@@ -262,4 +262,4 @@ app.delete('/Orders/:id', (req, res) => {
 
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`\x1b[44mServer running on http://localhost:${port}\x1b[0m`));
