@@ -1,0 +1,26 @@
+{
+  "name": "test_final__JS_Back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "init": "^0.1.2",
+    "prettier": "^3.5.3",
+    "sequelize": "^6.37.6",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
